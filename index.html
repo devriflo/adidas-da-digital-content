@@ -392,20 +392,20 @@ body {
     <div class="bc"><span class="bc-cur">Request Portal</span></div>
   </header>
   <div class="land-inner">
-    <div class="eyebrow">Global Digital Content Team</div>
+    <div class="eyebrow">Global Digital Content</div>
     <div class="land-h1">Content<br>Request<br><span class="hi">Portal</span></div>
     <p class="land-sub">Submit a new content project to the Global Digital Content team. Select the type of request to get started.</p>
     <div class="route-cards">
       <div class="route-card" onclick="goTo('screen-ai-cats','AI Project')">
         <div class="card-eyebrow">New — 2025</div>
         <h2>AI<br>Project</h2>
-        <p>AI-generated storytelling campaigns, PLP/PDP imagery, or a special AI content initiative.</p>
+        <p>AI-generated storytelling campaign content, on model & off model imagery, or a special AI content initiative.</p>
         <div class="card-cta">Start AI request</div>
       </div>
       <div class="route-card std-card" onclick="goTo('screen-form-std','Standard Project')">
         <div class="card-eyebrow">Standard</div>
         <h2>Standard<br>Request</h2>
-        <p>Traditional photo/video production, retouching, asset management, or scope additions.</p>
+        <p>Product Presentation (PLP/PDP imagery), Storytelling (Campaign content), Special Projects, Addition to a current project (Scope change).</p>
         <div class="card-cta">Start standard request</div>
       </div>
     </div>
@@ -439,21 +439,21 @@ body {
         <div class="cat-num">01</div>
         <h3>AI Storytelling<br>Content</h3>
         <p>Campaign-level content using AI to craft narratives, visual stories, and branded moments across channels.</p>
-        <div class="cat-tags"><span class="tag">Campaign</span><span class="tag">Social</span><span class="tag">Editorial</span><span class="tag">Brand</span></div>
+        <div class="cat-tags"><span class="tag">Campaign</span><span class="tag">Social</span><span class="tag">Editorial</span><span class="tag">Brand</span><span class="tag">Retail</span><span class="tag">Other</span></div>
         <div class="cat-cta">Select</div>
       </div>
       <div class="cat-card" onclick="goTo('screen-form','AI Product Content (PLP / PDP)')">
         <div class="cat-num">02</div>
         <h3>AI Product<br>Content</h3>
         <p>AI-generated imagery for PLP and PDP — backgrounds, lifestyle contexts, variations at scale.</p>
-        <div class="cat-tags"><span class="tag">PLP</span><span class="tag">PDP</span><span class="tag">eComm</span><span class="tag">WHS/DPC</span></div>
+        <div class="cat-tags"><span class="tag">Campaign</span><span class="tag">Social</span><span class="tag">Editorial</span><span class="tag">Brand</span><span class="tag">Retail</span><span class="tag">Other</span></div>
         <div class="cat-cta">Select</div>
       </div>
       <div class="cat-card" onclick="goTo('screen-form','AI Special Project')">
         <div class="cat-num">03</div>
         <h3>AI Special<br>Project</h3>
         <p>One-off, experimental, or cross-functional AI content initiatives that don't fit the standard categories.</p>
-        <div class="cat-tags"><span class="tag">Experimental</span><span class="tag">Innovation</span><span class="tag">Cross-functional</span></div>
+        <div class="cat-tags"><span class="tag">Campaign</span><span class="tag">Social</span><span class="tag">Editorial</span><span class="tag">Brand</span><span class="tag">Retail</span><span class="tag">Other</span></div>
         <div class="cat-cta">Select</div>
       </div>
     </div>
@@ -505,18 +505,24 @@ body {
           <div class="field"><label>Request Type</label><div class="hint">Pre-selected based on your choice</div><input type="text" id="req-type" readonly style="background:rgba(0,0,0,0.04);cursor:default;font-weight:700;"></div>
         </div>
         <div class="field"><label>Description <span class="req">*</span></label><div class="hint">Please give a description of the request</div><textarea placeholder="Describe the content need, context, and goal of this project…"></textarea></div>
+        <div class="field"><label>Season <span class="req">*</span></label><div class="hint">Which season is this request related to?</div><input type="text" placeholder="e.g. SS25, FW26"></div>
       </div>
       <div class="form-sec" id="dyn-sec"></div>
       <div class="form-sec">
         <div class="fs-title"><span class="s-num">03</span>Markets & Channels</div>
         <div class="field">
           <label>In which markets will the content be used? <span class="req">*</span></label>
-          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Global</label><label class="chk-opt"><input type="checkbox"> EMEA</label><label class="chk-opt"><input type="checkbox"> North America</label><label class="chk-opt"><input type="checkbox"> LATAM</label><label class="chk-opt"><input type="checkbox"> Asia Pacific</label><label class="chk-opt"><input type="checkbox"> Greater China</label></div>
+          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Global</label><label class="chk-opt"><input type="checkbox"> APAC</label><label class="chk-opt"><input type="checkbox"> EM</label><label class="chk-opt"><input type="checkbox"> EU</label><label class="chk-opt"><input type="checkbox"> NAM</label><label class="chk-opt"><input type="checkbox"> LAM</label><label class="chk-opt"><input type="checkbox"> Japan</label><label class="chk-opt"><input type="checkbox"> Korea</label><label class="chk-opt"><input type="checkbox"> GCA</label></div>
         </div>
         <div class="field">
           <label>Which channels / touchpoints are relevant? <span class="req">*</span></label>
           <div class="hint">Multiple answers are possible</div>
-          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Ecom</label><label class="chk-opt"><input type="checkbox"> WHS/DPC</label><label class="chk-opt"><input type="checkbox"> Retail</label><label class="chk-opt"><input type="checkbox"> Social</label><label class="chk-opt"><input type="checkbox"> Email</label><label class="chk-opt"><input type="checkbox"> OOH</label><label class="chk-opt"><input type="checkbox"> Print</label><label class="chk-opt"><input type="checkbox"> Other</label></div>
+          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Ecom</label><label class="chk-opt"><input type="checkbox"> Retail</label><label class="chk-opt"><input type="checkbox"> Wholesale</label><label class="chk-opt"><input type="checkbox"> Social</label><label class="chk-opt"><input type="checkbox"> Other</label></div>
+        </div>
+        <div class="field">
+          <label>Touchpoints <span class="req">*</span></label>
+          <div class="hint">Multiple answers are possible</div>
+          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> .COM</label><label class="chk-opt"><input type="checkbox"> Editorial</label><label class="chk-opt"><input type="checkbox"> CRM</label><label class="chk-opt"><input type="checkbox"> Confirmed</label><label class="chk-opt"><input type="checkbox"> App</label></div>
         </div>
       </div>
       <div class="form-sec">
@@ -592,10 +598,14 @@ body {
         <div class="field"><label>What deliverables are needed? <span class="req">*</span></label><textarea placeholder="Specs, dimensions, format…"></textarea></div>
         <div class="frow">
           <div class="field"><label>Delivery Date <span class="req">*</span></label><input type="date"></div>
-          <div class="field"><label>Markets <span class="req">*</span></label><input type="text" placeholder="e.g. Global, EMEA, NA"></div>
+          <div class="field"><label>Markets <span class="req">*</span></label><div class="hint">Multiple answers are possible</div><div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Global</label><label class="chk-opt"><input type="checkbox"> APAC</label><label class="chk-opt"><input type="checkbox"> EM</label><label class="chk-opt"><input type="checkbox"> EU</label><label class="chk-opt"><input type="checkbox"> NAM</label><label class="chk-opt"><input type="checkbox"> LAM</label><label class="chk-opt"><input type="checkbox"> Japan</label><label class="chk-opt"><input type="checkbox"> Korea</label><label class="chk-opt"><input type="checkbox"> GCA</label></div></div>
         </div>
         <div class="field"><label>Channels / Touchpoints <span class="req">*</span></label>
-          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Ecom</label><label class="chk-opt"><input type="checkbox"> WHS/DPC</label><label class="chk-opt"><input type="checkbox"> Retail</label><label class="chk-opt"><input type="checkbox"> Social</label><label class="chk-opt"><input type="checkbox"> Other</label></div>
+          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Ecom</label><label class="chk-opt"><input type="checkbox"> Retail</label><label class="chk-opt"><input type="checkbox"> Wholesale</label><label class="chk-opt"><input type="checkbox"> Social</label><label class="chk-opt"><input type="checkbox"> Other</label></div>
+        </div>
+        <div class="field"><label>Touchpoints <span class="req">*</span></label>
+          <div class="hint">Multiple answers are possible</div>
+          <div class="chk-grp"><label class="chk-opt"><input type="checkbox"> .COM</label><label class="chk-opt"><input type="checkbox"> Editorial</label><label class="chk-opt"><input type="checkbox"> CRM</label><label class="chk-opt"><input type="checkbox"> Confirmed</label><label class="chk-opt"><input type="checkbox"> App</label></div>
         </div>
       </div>
       <div class="form-sec">
@@ -638,8 +648,8 @@ body {
 
 <script>
 var dynData = {
-  'AI Storytelling Content (Campaign)': '<div class="fs-title"><span class="s-num">02</span>Campaign Details</div><div class="field"><label>Campaign Theme / Concept <span class="req">*</span></label><textarea placeholder="Describe the story or emotional narrative. What feeling should the audience walk away with?"></textarea></div><div class="frow"><div class="field"><label>Target Audience <span class="req">*</span></label><input type="text" placeholder="e.g. Gen Z runners, 18-28, EMEA"></div><div class="field"><label>Campaign Go-Live Date</label><input type="date"></div></div><div class="field"><label>Tone and Visual Style <span class="req">*</span></label><div class="r-grp"><label class="r-opt"><input type="radio" name="tone"><span>Cinematic / Epic - large scale, dramatic lighting</span></label><label class="r-opt"><input type="radio" name="tone"><span>Editorial / High Fashion - clean, aspirational</span></label><label class="r-opt"><input type="radio" name="tone"><span>Raw / Authentic - on-the-ground, real moments</span></label><label class="r-opt"><input type="radio" name="tone"><span>Playful / Bold - energetic, graphic, vibrant</span></label></div></div><div class="field"><label>Mood Board / Reference Links</label><input type="text" placeholder="Paste URL(s) to references, Miro boards, Pinterest..."></div><div class="field"><label>Existing brand assets to include?</label><div class="r-grp"><label class="r-opt"><input type="radio" name="assets"><span>Yes - I will provide asset links</span></label><label class="r-opt"><input type="radio" name="assets"><span>No - generate from scratch</span></label><label class="r-opt"><input type="radio" name="assets"><span>Partial - some assets available</span></label></div></div>',
-  'AI Product Content (PLP / PDP)': '<div class="fs-title"><span class="s-num">02</span>Product Details</div><div class="note-box">Ensure product information aligns with current season go-live dates and eComm specs before submitting.</div><div class="frow"><div class="field"><label>Product Name / Article # <span class="req">*</span></label><input type="text" placeholder="e.g. Ultraboost 25, IH1234"></div><div class="field"><label>Number of SKUs / Colorways <span class="req">*</span></label><input type="number" placeholder="e.g. 8" min="1"></div></div><div class="field"><label>Page Type <span class="req">*</span></label><div class="chk-grp"><label class="chk-opt"><input type="checkbox"> PLP - Product Listing Page</label><label class="chk-opt"><input type="checkbox"> PDP - Product Detail Page</label></div></div><div class="field"><label>Background / Environment Style <span class="req">*</span></label><div class="r-grp"><label class="r-opt"><input type="radio" name="bg"><span>Clean Studio / White</span></label><label class="r-opt"><input type="radio" name="bg"><span>AI Lifestyle Context (athlete-in-scene)</span></label><label class="r-opt"><input type="radio" name="bg"><span>Abstract / Graphic / Textured</span></label><label class="r-opt"><input type="radio" name="bg"><span>Custom - describe in notes below</span></label></div></div><div class="field"><label>Existing product shots available?</label><div class="r-grp"><label class="r-opt"><input type="radio" name="shots"><span>Yes - I will provide file links</span></label><label class="r-opt"><input type="radio" name="shots"><span>No - AI to generate from scratch</span></label><label class="r-opt"><input type="radio" name="shots"><span>Partial - some colorways have shots</span></label></div></div><div class="field"><label>Additional visual notes</label><textarea placeholder="Angles, styling direction, product-specific requirements..."></textarea></div>',
+  'AI Storytelling Content (Campaign)': '<div class="fs-title"><span class="s-num">02</span>Campaign Details</div><div class="field"><label>Campaign Theme / Concept <span class="req">*</span></label><textarea placeholder="Describe the story or emotional narrative. What feeling should the audience walk away with?"></textarea></div><div class="frow"><div class="field"><label>Target Audience <span class="req">*</span></label><input type="text" placeholder="e.g. Gen Z runners, 18-28, EMEA"></div><div class="field"><label>Campaign Go-Live Date</label><input type="date"></div></div><div class="field"><label>Mood Board / Reference Links</label><input type="text" placeholder="Paste URL(s) to references, Miro boards, Pinterest..."></div><div class="field"><label>Existing brand assets to include?</label><div class="r-grp"><label class="r-opt"><input type="radio" name="assets"><span>Yes - I will provide asset links</span></label><label class="r-opt"><input type="radio" name="assets"><span>No - generate from scratch</span></label><label class="r-opt"><input type="radio" name="assets"><span>Partial - some assets available</span></label></div></div>',
+  'AI Product Content (PLP / PDP)': '<div class="fs-title"><span class="s-num">02</span>Product Details</div><div class="note-box">Ensure product information aligns with current season go-live dates and eComm specs before submitting.</div><div class="frow"><div class="field"><label>Product Name / Article # <span class="req">*</span></label><input type="text" placeholder="e.g. Ultraboost 25, IH1234"></div><div class="field"><label>Number of SKUs / Colorways <span class="req">*</span></label><input type="number" placeholder="e.g. 8" min="1"></div></div><div class="field"><label>Page Type <span class="req">*</span></label><div class="chk-grp"><label class="chk-opt"><input type="checkbox"> PLP - Product Listing Page</label><label class="chk-opt"><input type="checkbox"> PDP - Product Detail Page</label></div></div><div class="field"><label>Existing product shots available?</label><div class="r-grp"><label class="r-opt"><input type="radio" name="shots"><span>Yes - I will provide file links</span></label><label class="r-opt"><input type="radio" name="shots"><span>No - AI to generate from scratch</span></label><label class="r-opt"><input type="radio" name="shots"><span>Partial - some colorways have shots</span></label></div></div><div class="field"><label>Additional visual notes</label><textarea placeholder="Angles, styling direction, product-specific requirements..."></textarea></div>',
   'AI Special Project': '<div class="fs-title"><span class="s-num">02</span>Special Project Details</div><div class="field"><label>What makes this a special / non-standard project? <span class="req">*</span></label><textarea placeholder="Describe what is unique, experimental, or cross-functional about this request"></textarea></div><div class="frow"><div class="field"><label>Stakeholders / Partners involved <span class="req">*</span></label><input type="text" placeholder="e.g. Innovation Lab, External Agency"></div><div class="field"><label>Estimated timeline / milestones</label><input type="text" placeholder="e.g. Concept by June 1, delivery July 15"></div></div><div class="field"><label>AI Tools / Platforms in scope (if known)</label><div class="chk-grp"><label class="chk-opt"><input type="checkbox"> Midjourney</label><label class="chk-opt"><input type="checkbox"> Adobe Firefly</label><label class="chk-opt"><input type="checkbox"> Runway / Video AI</label><label class="chk-opt"><input type="checkbox"> adidas Internal Tool</label><label class="chk-opt"><input type="checkbox"> TBD</label></div></div><div class="field"><label>Approvals status <span class="req">*</span></label><div class="r-grp"><label class="r-opt"><input type="radio" name="appr"><span>All approvals in place</span></label><label class="r-opt"><input type="radio" name="appr"><span>Partial - some sign-offs pending</span></label><label class="r-opt"><input type="radio" name="appr"><span>Not started - help needed navigating approvals</span></label></div></div><div class="field"><label>Reference / mood board links</label><input type="text" placeholder="URLs to references, decks, or relevant files"></div>'
 };
 
