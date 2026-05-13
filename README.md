@@ -1,2 +1,2 @@
-# adidas-da-digital-content
+# GDA-hub
 This repository will store DA / digital content code 
